@@ -63,32 +63,18 @@ h3 {
     margin-bottom: 0 !important;
 }
 
-.jumbotron2 {
-	background-color: #D06401;
-	display: flex;
-	flex-direction: column;
-	justify-content: top;
-	align-items: center;
-	vertical-align: center;
-	height: 100vh;
-	text-align: center;
-	position: top center;
-    padding:0 !important;
-    margin-bottom: 0 !important;
-}
-
 .bg-1 { 
     background-color: #fff;
-    color: #555;
+    color: #D06401;
 }
 
 .bg-2 { 
-    background-color: #F6D7E0;
-    color: #555;
+    background-color: #D06401;
+    color: #D06401;
 }
 
 .bg-3 { 
-    background-color: #b16c7f;
+    background-color: #D06401;
     color: #ffffff;
 }
 
@@ -99,43 +85,12 @@ h3 {
 	padding-left: 50px;
 }
 
-/*
-hexagons
-.hex {
-    float: left;
-    margin-left: 3px;
-    margin-bottom: -26px;
-}
-.hex .top {
-    width: 0;
-    border-bottom: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .middle {
-    width: 104px;
-    height: 60px;
-    background: #6C6;
-}
-.hex .bottom {
-    width: 0;
-    border-top: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex-row {
-    clear: left;
-}
-.hex-row.even {
-    margin-left: 53px;
-}*/
-
 * {
     margin: 0;
     padding: 0;
 }
 body {
-    background: rgb(123, 158, 158);
+    background: #D06401;
 }
 #hexGrid {
   display: flex;
@@ -203,7 +158,7 @@ body {
   width: 100%;
   padding: 5%;
   box-sizing:border-box;
-  background-color: rgba(0, 128, 128, 0.8);
+  background-color: #D06401;
   font-weight: 300;
   -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
           transition:          transform .2s ease-out, opacity .3s ease-out;
