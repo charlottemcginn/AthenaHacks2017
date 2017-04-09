@@ -196,6 +196,7 @@ body {
 /*** HOVER EFFECT  **********************************************************************/
 .hexLink:hover h1, .hexLink:focus h1,
 .hexLink:hover p, .hexLink:focus p{
+	background-color: #ffcc66;
   -webkit-transform:translate3d(0,0,0);
       -ms-transform:translate3d(0,0,0);
           transform:translate3d(0,0,0);
