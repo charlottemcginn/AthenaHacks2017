@@ -30,7 +30,7 @@ h1 {
 	font-size: 50px;
 	font-weight: 300;
 	letter-spacing: 2px;
-	padding: 150px 0px 20px 0px;
+	padding: 100px 0px 30px 0px;
 	line-height: 1em;
 	margin-bottom:0em;
 	margin-top:0.2em;
@@ -258,12 +258,12 @@ body {
 * {margin: 300; padding: 200;}
 
 div {
-  margin: 20px;
+  margin: 10px;
 }
 
 ul {
   list-style-type: none;
-  width: 500px;
+  width: 400px;
 }
 
 h3 {
@@ -283,7 +283,7 @@ li p {
 }
 
 li:hover {
-  background: #eee;
+  background: #ffcc66;
   cursor: pointer;
 }
 
