@@ -1,0 +1,52 @@
+.text-primary {
+  font-family:    Dosis;
+  font-size:      20px;
+  font-weight:    bold;
+  color: #ffcc00;
+}
+
+.project {
+  margin-bottom: 20px;
+  color: #663300;
+}
+
+
+.text-brown {
+    color: #ffcc00;
+}
+
+.text-title{
+  padding-top: 10%;
+  color: #ffcc00;
+  font-weight: 200;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Dosis";
+
+}
+
+.yellow {
+  color: #ffcc66;
+}
+
+.dish-row {
+  height: 300px;
+  padding-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+
+
+/*HEXAGON STUFF*/
+
+
