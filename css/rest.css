@@ -1,8 +1,8 @@
 .text-primary {
   font-family:    "Dosis";
-  font-size:      20px;
+  font-size:      30px;
  
-  color: #663300;
+  color: #fff;
 }
 
 img {
@@ -10,19 +10,35 @@ img {
   max-height: 100%;
 }
 
-.button {
-  background-color: white;
+body {
+    background: #D06401;
 }
 
+.button {
+    background-color: #ffcc66;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
 
-$size : 10rem;
-$border-width : .5rem;
-$radius : 1rem; /* try 50% */
-$transition : .3s;
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
 
-$bg : #F6F3E4;
-$green : #4BC35F;
-$red : #C15044;
+/* Optional theme */
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
+
+body {
+    color:#ffcc66;
+}
+
 
 
 .circle {
@@ -93,32 +109,3 @@ $red : #C15044;
 /*
 
 
-
-.hex {
-    float: left;
-    margin-left: 3px;
-    margin-bottom: -26px;
-}
-.hex .top {
-    width: 0;
-    border-bottom: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .middle {
-    width: 104px;
-    height: 60px;
-    background: #6C6;
-}
-.hex .bottom {
-    width: 0;
-    border-top: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex-row {
-    clear: left;
-}
-.hex-row.even {
-    margin-left: 53px;
-}*/
