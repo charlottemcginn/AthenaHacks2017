@@ -254,6 +254,7 @@ body {
     }
 }
 
+/*****************LIST*****************/
 * {margin: 300; padding: 200;}
 
 div {
@@ -271,7 +272,10 @@ h3 {
 
 li img {
   float: left;
-  margin: 0 15px 0 0;
+  width: 68px;
+  height: 68px;
+  height: auto;
+  float: left;
 }
 
 li p {
@@ -283,23 +287,8 @@ li:hover {
   cursor: pointer;
 }
 
-a.nav-link:link
-{
-   color: #fb3f00;
-   text-decoration: none;
-}
-a.nav-link:visited
-{
-   color: #fb3f00;
-   text-decoration: none;
-}
-a.nav-link:hover
-{
-   color: #fb3f00;
-   text-decoration: none;
-}
-a.nav-link:active
-{
-   color: #fb3f00;
-   text-decoration: none;
+/*LINK*/
+a { 
+    color:white;
+    text-decoration:none;
 }
