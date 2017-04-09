@@ -27,9 +27,10 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 72px;
+	font-size: 50px;
 	font-weight: 300;
 	letter-spacing: 2px;
+	padding: 150px 0px 20px 0px;
 	line-height: 1em;
 	margin-bottom:0em;
 	margin-top:0.2em;
@@ -251,4 +252,33 @@ body {
     #hexGrid {
         font-size: 13px;
     }
+}
+
+* {margin: 300; padding: 200;}
+
+div {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+li:hover {
+  background: #eee;
+  cursor: pointer;
 }
