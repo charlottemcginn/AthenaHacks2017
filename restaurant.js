@@ -1,38 +1,21 @@
 if (typeof(Storage) !== "undefined") {
-    var c=0;
-
-	function increment() {
-		document.getElementById("txt").value = c;
-		c++;
-	}
-
-	function decrement() {
-		document.getElementById("txt").value = c;
-		c--;
-	}
-
-$(function(){
-  $(".increment").click(function(){
-    var count = parseInt($("~ .count", this).text());
+var counter = 0;
+var add = (function () {
     
-    if($(this).hasClass("up")) {
-      var count = count + 1;
-      
-       $("~ .count", this).text(count);
-    } else {
-      var count = count - 1;
-       $("~ .count", this).text(count);     
-    }
+    return function () {return counter += 1;}
+})();
+var subtract = (function () {
     
-    $(this).parent().addClass("bump");
-    
-    setTimeout(function(){
-      $(this).parent().removeClass("bump");    
-    }, 400);
-  });
-});
+    return function () {return counter -= 1;}
+})();
 
 
+function ADD(){
+    document.getElementById("demo").innerHTML = add();
+}
+function SUBTRACT(){
+    document.getElementById("demo").innerHTML = subtract();
+}
 } else {
     // Sorry! No Web Storage support..
 }
